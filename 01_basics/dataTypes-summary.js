@@ -39,3 +39,26 @@ const myFunction = function(){
 
 
 
+// +++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) -- Copy of value, Heap (Non- Primitive) -- Actual value change
+
+let myYoutube = "HelloCoder"
+
+let anotherYoutube = myYoutube
+anotherYoutube = "codeLover"
+
+console.log(myYoutube);
+console.log(anotherYoutube);
+
+let userOne = {
+    email: "coder@google.com",
+    upi: "user@ehd"
+}
+
+let userTwo = userOne
+
+userTwo.email = "lovecode@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
