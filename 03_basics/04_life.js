@@ -12,10 +12,12 @@
 //     console.log(`DB CONNECTED TWO`);
 // })()
 
-// 
+
+
+// name expected 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
-})('Lokesh')
+})("Lokesh")
 
 
 // IIFE propose
